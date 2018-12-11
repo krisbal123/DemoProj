@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ListUsers,,,2018-12-06 13:23:39,2018-12-06 13:23:52,12.379s,FAILED
+,,,,,,
+"Test Cases/Test User GET, POST, PUT and DELETE",,,2018-12-06 13:23:40,2018-12-06 13:23:48,7.777s,FAILED
+"status = sendRequestAndVerify(findTestObject(""REST/GET - GetUser""))",,,2018-12-06 13:23:41,2018-12-06 13:23:48,6.779s,FAILED
+,,,,,,
+Test Cases/REST/ListUsersTest,,,2018-12-06 13:23:48,2018-12-06 13:23:52,3.716s,FAILED
+"sendRequest(findTestObject(""REST/ListUsers""))",,,2018-12-06 13:23:48,2018-12-06 13:23:50,1.934s,PASSED
+"response = sendRequestAndVerify(findTestObject(""REST/ListUsers""))",,,2018-12-06 13:23:50,2018-12-06 13:23:52,1.269s,FAILED

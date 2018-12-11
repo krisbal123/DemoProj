@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ListUsers,,,2018-12-06 13:20:03,2018-12-06 13:20:13,10.757s,FAILED
+,,,,,,
+Test Cases/REST/ListUsersTest,,,2018-12-06 13:20:03,2018-12-06 13:20:13,9.806s,FAILED
+"sendRequest(findTestObject(""REST/ListUsers""))",,,2018-12-06 13:20:05,2018-12-06 13:20:11,6.160s,PASSED
+"response = sendRequestAndVerify(findTestObject(""REST/ListUsers""))",,,2018-12-06 13:20:11,2018-12-06 13:20:13,2.101s,FAILED
